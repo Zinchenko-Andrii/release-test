@@ -1,5 +1,5 @@
 {
-  "name": "@airslate/platform-service",
+  "name": "anzi-test-platform-service",
   "version": "1.13.0",
   "private": true,
   "description": "airSlate services.",

@@ -1,5 +1,5 @@
 {
-  "name": "@airslate/platform-sdk",
+  "name": "anzi-test-platform-sdk",
   "version": "1.13.0",
   "description": "SDK for airSlate applications.",
   "repository": {

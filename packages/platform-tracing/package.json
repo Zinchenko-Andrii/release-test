@@ -1,5 +1,5 @@
 {
-  "name": "@airslate/platform-tracing",
+  "name": "anzi-test-platform-tracing",
   "version": "1.13.0",
   "private": true,
   "description": "Logging & profiler utils.",
