@@ -26,6 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec3ca2eb-919d-4dba-a9ca-4c52345af5e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/platform-sdk-v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/platform-sdk-v2/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1611075240350" duration="1575000" />
       <workItem from="1611076890007" duration="2413000" />
       <workItem from="1611127553833" duration="659000" />
-      <workItem from="1611128222691" duration="3541000" />
+      <workItem from="1611128222691" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <created>1611128278825</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611133804876</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat(prerelease): temp">
+      <created>1611133904239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611133904239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,10 +225,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1611075693036" />
-    <state x="473" y="61" key="CommitChangelistDialog2" timestamp="1611133804699">
+    <state x="473" y="61" key="CommitChangelistDialog2" timestamp="1611133904088">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="473" y="61" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1611133804699" />
+    <state x="473" y="61" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1611133904088" />
     <state x="180" y="122" key="DiffContextDialog" timestamp="1611128266217">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -233,10 +241,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1611128256078" />
-    <state x="496" y="293" key="Vcs.Push.Dialog.v2" timestamp="1611133857683">
+    <state x="496" y="293" key="Vcs.Push.Dialog.v2" timestamp="1611133905367">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="293" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1611133857683" />
+    <state x="496" y="293" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1611133905367" />
     <state x="692" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611127814286">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
