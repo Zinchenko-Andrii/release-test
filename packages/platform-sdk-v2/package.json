@@ -20,8 +20,8 @@
     "dist"
   ],
   "devDependencies": {
-    "@airslate/platform-service": "^1.13.0",
-    "@airslate/platform-tracing": "^1.13.0"
+    "anzi-test-platform-service": "^1.13.0",
+    "anzi-test-platform-tracing": "^1.13.0"
   },
   "peerDependencies": {}
 }

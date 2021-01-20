@@ -25,10 +25,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3ca2eb-919d-4dba-a9ca-4c52345af5e7" name="Default Changelist" comment="">
+    <list default="true" id="ec3ca2eb-919d-4dba-a9ca-4c52345af5e7" name="Default Changelist" comment="feat: temp">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@airslate/platform-sdk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@airslate/platform-service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@airslate/platform-tracing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/detect-indent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm/node_modules/detect-indent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/detect-newline/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm/node_modules/detect-newline/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/iferr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm/node_modules/iferr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm/node_modules/readable-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/npm/node_modules/string_decoder/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/platform-sdk-v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/platform-sdk-v2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/platform-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/platform-service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/platform-tracing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/platform-tracing/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/packages/platform-sdk-v2/package.json" />
   </component>
   <component name="ProjectId" id="1nIQgmIvYyCuZg0OpXSqoJSrTAL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,7 +90,7 @@
       <workItem from="1611075240350" duration="1575000" />
       <workItem from="1611076890007" duration="2413000" />
       <workItem from="1611127553833" duration="659000" />
-      <workItem from="1611128222691" duration="784000" />
+      <workItem from="1611128222691" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <created>1611128278825</created>
@@ -116,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611128956986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: temp">
+      <created>1611129340429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611129340429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +176,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1611075693036" />
-    <state x="473" y="61" key="CommitChangelistDialog2" timestamp="1611128956840">
+    <state x="473" y="61" key="CommitChangelistDialog2" timestamp="1611129528763">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="473" y="61" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1611128956840" />
+    <state x="473" y="61" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1611129528763" />
     <state x="180" y="122" key="DiffContextDialog" timestamp="1611128266217">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -174,10 +192,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1611128256078" />
-    <state x="496" y="293" key="Vcs.Push.Dialog.v2" timestamp="1611128958179">
+    <state x="496" y="293" key="Vcs.Push.Dialog.v2" timestamp="1611129342460">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="293" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1611128958179" />
+    <state x="496" y="293" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1611129342460" />
     <state x="692" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611127814286">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
