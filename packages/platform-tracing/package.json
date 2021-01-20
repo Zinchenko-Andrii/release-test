@@ -1,0 +1,16 @@
+{
+  "name": "@airslate/platform-tracing",
+  "version": "1.13.0",
+  "private": true,
+  "description": "Logging & profiler utils.",
+  "homepage": "https://github.com/airslateinc/front-platform#readme",
+  "bugs": {
+    "url": "https://github.com/airslateinc/front-platform/issues"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "module": "src/index.js",
+  "peerDependencies": {}
+}

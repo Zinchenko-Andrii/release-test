@@ -1,0 +1,35 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+      - beta
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: NodeJS setup
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Setup registry
+        run: |
+          npm config set registry https://artifactory.infrateam.xyz/api/npm/npm/
+          npm config set always-auth true
+          echo "//artifactory.infrateam.xyz/api/npm/npm/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
+      - name: Install dependencies
+        run: HUSKY_SKIP_INSTALL=1 yarn
+
+      - name: Publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          AS_CI: true
+        run: npx multi-semantic-release
