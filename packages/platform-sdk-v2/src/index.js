@@ -4,7 +4,7 @@ import tracing from "@airslate/platform-tracing";
 const sdk = () => {
   console.log('sdk');
 
-  console.log('beta test 444');
+  console.log('beta test 555');
 }
 
 
