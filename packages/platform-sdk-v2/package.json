@@ -23,5 +23,14 @@
     "anzi-test-platform-service": "^1.13.0",
     "anzi-test-platform-tracing": "^1.13.0"
   },
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "prerelease": false
+      }
+    ]
+  }
 }
