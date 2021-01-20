@@ -2,13 +2,8 @@
   "name": "@airslate/platform-sdk",
   "version": "1.13.0",
   "description": "SDK for airSlate applications.",
-  "homepage": "https://github.com/airslateinc/front-platform#readme",
-  "bugs": {
-    "url": "https://github.com/airslateinc/front-platform/issues"
-  },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/airslateinc/front-platform.git"
+    "type": "git"
   },
   "license": "MIT",
   "main": "dist/esm/index.js",
@@ -28,8 +23,5 @@
     "@airslate/platform-service": "^1.13.0",
     "@airslate/platform-tracing": "^1.13.0"
   },
-  "peerDependencies": {},
-  "publishConfig": {
-    "registry": "https://artifactory.infrateam.xyz/api/npm/npm/"
-  }
+  "peerDependencies": {}
 }
