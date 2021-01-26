@@ -6,7 +6,6 @@
   "main": "dist/commonjs/index.js",
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "npm version patch"
   },
   "workspaces": [
     "packages/*"
