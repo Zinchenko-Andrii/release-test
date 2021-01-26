@@ -22,5 +22,6 @@
   "devDependencies": {
     "anzi-test-platform-service": "^1.13.1",
     "anzi-test-platform-tracing": "^1.13.1"
-  }
+  },
+  "gitHead": "a1961ec5457a598954432e5f92d327ebc0a8c9fa"
 }
