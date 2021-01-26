@@ -1,12 +1,11 @@
 {
   "name": "anzi-test-platform-tracing",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "private": true,
   "description": "Logging & profiler utils.",
   "repository": {
     "type": "git"
   },
   "license": "MIT",
-  "module": "src/index.js",
-  "peerDependencies": {}
+  "module": "src/index.js"
 }

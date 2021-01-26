@@ -1,6 +1,6 @@
 {
   "name": "anzi-test-platform-service",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "private": true,
   "description": "airSlate services.",
   "license": "MIT",
@@ -10,7 +10,5 @@
     "start": "styleguidist server",
     "test": "jest",
     "test:watch": "jest --watch"
-  },
-  "devDependencies": {},
-  "peerDependencies": {}
+  }
 }
