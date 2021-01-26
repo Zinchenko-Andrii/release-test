@@ -17,15 +17,12 @@
   "files": [
     "dist"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@rollup/plugin-json": "^4.1.0",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.2.0",
-    "@semantic-release/npm": "^7.0.10",
-    "@semantic-release/release-notes-generator": "^9.0.1",
     "multi-semantic-release": "^2.6.0",
     "rollup": "^2.37.0",
     "rollup-plugin-babel": "^4.4.0",
