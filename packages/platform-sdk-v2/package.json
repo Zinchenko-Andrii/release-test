@@ -1,5 +1,5 @@
 {
-  "name": "anzi-test-platform-sdk123",
+  "name": "anzi-test-platform-sdk-aplha",
   "version": "0.0.2-alpha.0",
   "description": "SDK for airSlate applications.",
   "repository": {
@@ -23,5 +23,5 @@
     "anzi-test-platform-service": "^1.13.1",
     "anzi-test-platform-tracing": "^1.13.1"
   },
-  "gitHead": "db9219f835b2da6dbdb26132d00c06fdba976e90"
+  "gitHead": "0fb02a2c05f637714f7c2a881d6634be514642e3"
 }
