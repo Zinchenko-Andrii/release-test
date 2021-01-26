@@ -2,9 +2,9 @@ import service from "@airslate/platform-service";
 import tracing from "@airslate/platform-tracing";
 
 const sdk = () => {
-  console.log('sdk');
+  console.log('sdk123');
 
-  console.log('beta test 777');
+  console.log('beta test 888');
 }
 
 

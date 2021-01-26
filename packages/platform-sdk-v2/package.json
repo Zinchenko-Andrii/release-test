@@ -1,6 +1,6 @@
 {
   "name": "anzi-test-platform-sdk",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "description": "SDK for airSlate applications.",
   "repository": {
     "type": "git"
