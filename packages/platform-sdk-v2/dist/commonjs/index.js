@@ -11,7 +11,7 @@ var platformService__default = /*#__PURE__*/_interopDefaultLegacy(platformServic
 var platformTracing__default = /*#__PURE__*/_interopDefaultLegacy(platformTracing);
 
 const sdk = () => {
-  console.log('sdk123');
+  console.log('12314124');
 
   console.log('beta test 888');
 };
