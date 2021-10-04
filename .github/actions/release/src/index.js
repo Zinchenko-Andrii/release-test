@@ -26,7 +26,7 @@ const args = { owner: owner.name || owner.login, repo: repository.name };
   }
 
 
-  const tags = await gh.rest.repos.listTeams({ ...args });
+  const tags = await gh.rest.repos.listTags({ ...args });
 
   console.log('tags', tags)
 }());
