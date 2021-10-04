@@ -1,6 +1,6 @@
 {
-  "name": "release-ci-test",
-  "private": true,
+  "name": "release-test",
+  "private": false,
   "version": "1.0.20",
   "description": "",
   "main": "dist/commonjs/index.js",
