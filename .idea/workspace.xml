@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec3ca2eb-919d-4dba-a9ca-4c52345af5e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/actions/release/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.github/actions/release/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <workItem from="1611076890007" duration="2413000" />
       <workItem from="1611127553833" duration="659000" />
       <workItem from="1611128222691" duration="34000" />
-      <workItem from="1633334196736" duration="2032000" />
+      <workItem from="1633334196736" duration="2781000" />
     </task>
     <servers />
   </component>
@@ -122,21 +123,9 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611075693036">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="360" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633339353012">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="634" y="371" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1611075693036" />
-    <state x="397" y="210" key="SettingsEditor" timestamp="1611128256078">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1611128256078" />
-    <state x="692" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611127814286">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="692" y="488" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1611127814286" />
-    <state x="561" y="266" key="run.anything.popup" timestamp="1611127704125">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1611127704125" />
+    <state x="360" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1633339353012" />
   </component>
 </project>

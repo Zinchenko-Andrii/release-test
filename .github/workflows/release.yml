@@ -27,6 +27,7 @@ jobs:
       - uses: ./.github/actions/release
         env:
           GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
+          ORGANIZATION: Zinchenko-Andrii
 
 #      - name: Publish
 #        env:
