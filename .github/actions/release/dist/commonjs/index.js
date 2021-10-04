@@ -86283,7 +86283,7 @@ github_1(process.env.GITHUB_TOKEN);
 (async function run() {
   console.log('head_commit', context.payload.head_commit.message);
 
-  const message = context.payload.head_commit;
+  const { message } = context.payload.head_commit;
 
   const branch = message.replace(message.slice(message.indexOf('\n\n')), '').split(`${process.env.ORGANIZATION}/`)[1];
 

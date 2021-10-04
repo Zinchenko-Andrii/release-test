@@ -11,7 +11,7 @@ const args = { owner: owner.name || owner.login, repo: repository.name };
 (async function run() {
   console.log('head_commit', context.payload.head_commit.message);
 
-  const message = context.payload.head_commit;
+  const { message } = context.payload.head_commit;
 
   const branch = message.replace(message.slice(message.indexOf('\n\n')), '').split(`${process.env.ORGANIZATION}/`)[1]
 
