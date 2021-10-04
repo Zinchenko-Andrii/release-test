@@ -1589,7 +1589,7 @@ core.debug;
 core.isDebug;
 core.setFailed;
 core.setCommandEcho;
-core.setOutput;
+var core_15 = core.setOutput;
 core.getBooleanInput;
 core.getMultilineInput;
 core.getInput;
@@ -86308,13 +86308,11 @@ const getAllTags = async () => {
 };
 
 (async function run() {
-  const { message } = context.payload.head_commit;
-
-  const branch = message.replace(message.slice(message.indexOf('\n\n')), '').split(`${process.env.ORGANIZATION}/`)[1];
-
-  console.log('branch', branch);
-  // console.log('commits', context.payload.commits);
   const tags = await getAllTags();
-  // console.log('tags', tags);
-  console.log('tag -- ', tags.find(({ commit }) => commit.sha === context.payload.commits[0].id));
+  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id)?.name;
+
+  if (releaseTag) {
+    core_15('releaseTag', releaseTag);
+    core_15('packageName', repository.name);
+  }
 }());
