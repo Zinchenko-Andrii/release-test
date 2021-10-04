@@ -86281,7 +86281,7 @@ github_1(process.env.GITHUB_TOKEN);
 ({ owner: owner.name || owner.login, repo: repository.name });
 
 (async function run() {
-  console.log('head_commit', context.payload.head_commit);
-  console.log('commits', context.payload.commits);
-  console.log('context', context);
+  console.log('head_commit', context.payload.head_commit.message);
+  console.log('commits', context.payload.commits[0]);
+  // console.log('context', context);
 }());
