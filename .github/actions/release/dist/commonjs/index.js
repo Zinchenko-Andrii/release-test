@@ -86309,10 +86309,10 @@ const getAllTags = async () => {
 
 (async function run() {
   const tags = await getAllTags();
-  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id)?.name;
+  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id);
 
   if (releaseTag) {
-    core_15('releaseTag', releaseTag);
+    core_15('releaseTag', releaseTag.name);
     core_15('packageName', repository.name);
   }
 }());

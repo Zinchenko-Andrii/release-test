@@ -37,10 +37,10 @@ const getAllTags = async () => {
 
 (async function run() {
   const tags = await getAllTags();
-  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id)?.name;
+  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id);
 
   if (releaseTag) {
-    core.setOutput('releaseTag', releaseTag);
+    core.setOutput('releaseTag', releaseTag.name);
     core.setOutput('packageName', repository.name);
   }
 }());
