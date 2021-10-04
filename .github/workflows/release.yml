@@ -25,6 +25,8 @@ jobs:
 #          echo "//artifactory.infrateam.xyz/api/npm/npm/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
 
       - uses: ./.github/actions/release
+        env:
+          GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
 
 #      - name: Publish
 #        env:
