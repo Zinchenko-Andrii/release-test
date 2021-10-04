@@ -21,5 +21,8 @@ const args = { owner: owner.name || owner.login, repo: repository.name };
   const tag = await gh.rest.git.getTag({ ...args, tag_sha: '023153772d82d3c64241aad9a8c9a33ea865c80d' });
   // const tag = gh.rest.git.getTag({ ...args, tag_sha: context.payload.commits[0].id });
 
+  const tags = await gh.rest.repos.listTeams({ ...args });
+
   console.log('tag', tag)
+  console.log('tags', tags)
 }());
