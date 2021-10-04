@@ -86300,5 +86300,5 @@ const args = { owner: owner.name || owner.login, repo: repository.name };
 
   const tags = await gh.rest.repos.listTags({ ...args }).then((res) => res.data);
 
-  console.log('tags', tags.find(({ name }) => name === 'arel-test'));
+  console.log('tags', tags.find(({ commit }) => commit.sha === context.payload.commits[0].id));
 }());
