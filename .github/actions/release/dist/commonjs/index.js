@@ -86316,5 +86316,5 @@ const getAllTags = async () => {
   // console.log('commits', context.payload.commits);
   const tags = await getAllTags();
   // console.log('tags', tags);
-  console.log('tag', tags.find(({ commit }) => commit.sha === context.payload.commits[0].id));
+  console.log('tag -- ', tags.find(({ commit }) => commit.sha === context.payload.commits[0].id));
 }());
