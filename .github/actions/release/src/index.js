@@ -11,7 +11,11 @@ const args = { owner: owner.name || owner.login, repo: repository.name };
 (async function run() {
   console.log('head_commit', context.payload.head_commit.message);
 
-  const message = 'Merge pull request #6 from Zinchenko-Andrii/test1\n\nt'
+  const message = context.payload.head_commit;
+
+  const branch = message.replace(message.slice(message.indexOf('\n\n')), '').split(`${process.env.ORGANIZATION}/`)[1]
+
+  console.log('branch', branch);
   console.log('commits', context.payload.commits[0]);
   // console.log('context', context);
 }());
