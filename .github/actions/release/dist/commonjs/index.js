@@ -86281,5 +86281,7 @@ github_1(process.env.GITHUB_TOKEN);
 ({ owner: owner.name || owner.login, repo: repository.name });
 
 (async function run() {
+  console.log(1);
+  console.log(1);
   console.log('context', context);
 }());
