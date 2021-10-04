@@ -86282,6 +86282,12 @@ github_1(process.env.GITHUB_TOKEN);
 
 (async function run() {
   console.log('head_commit', context.payload.head_commit.message);
+
+  const message = context.payload.head_commit;
+
+  const branch = message.replace(message.slice(message.indexOf('\n\n')), '').split(`${process.env.ORGANIZATION}/`)[1];
+
+  console.log('branch', branch);
   console.log('commits', context.payload.commits[0]);
   // console.log('context', context);
 }());
