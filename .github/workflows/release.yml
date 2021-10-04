@@ -25,6 +25,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
           ORGANIZATION: Zinchenko-Andrii
 
-      - name: Remove preRelease dist-tag
+      - name: Make dist-tag latest
+        if: steps.getReleaseTag.outputs.releaseTag
         run: |
-          npm dist-tag add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }} latest
+          echo add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }}
+#          npm dist-tag add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }} latest
