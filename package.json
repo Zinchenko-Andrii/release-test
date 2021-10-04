@@ -1,7 +1,7 @@
 {
   "name": "release-ci-test",
   "private": true,
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "dist/commonjs/index.js",
   "scripts": {
