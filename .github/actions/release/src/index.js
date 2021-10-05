@@ -9,5 +9,5 @@ const gh = github.getOctokit(process.env.GITHUB_TOKEN);
 const args = { owner: owner.name || owner.login, repo: repository.name };
 
 (async function run() {
-  console.log(github);
+  console.log(context);
 }());

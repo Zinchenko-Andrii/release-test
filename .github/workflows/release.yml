@@ -23,8 +23,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
           ORGANIZATION: airslateinc
-
-      - name: Make dist-tag latest
-        if: steps.getReleaseTag.outputs.releaseTag
-        run: |
-          npm dist-tag add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }} latest
