@@ -1589,7 +1589,7 @@ core.debug;
 core.isDebug;
 core.setFailed;
 core.setCommandEcho;
-var core_15 = core.setOutput;
+core.setOutput;
 core.getBooleanInput;
 core.getMultilineInput;
 core.getInput;
@@ -86277,42 +86277,9 @@ const { context } = github$2;
 const { repository } = context.payload;
 const { owner } = repository;
 
-const gh = github_1(process.env.GITHUB_TOKEN);
-const args = { owner: owner.name || owner.login, repo: repository.name };
-
-const getTotalPageCount = (headerLink) => {
-  if (headerLink) {
-    return headerLink.split(',')[1].match(/.*page=(?<page_num>\d+)/).groups.page_num;
-  }
-
-  return 1;
-};
-
-const getAllTags = async () => {
-  const { headers: tagsHeaders } = await gh.repos.listTags({ ...args });
-  const tagsTotalPageCount = getTotalPageCount(tagsHeaders.link);
-  const allTagsList = [];
-
-  for (let i = 1; i <= tagsTotalPageCount; i++) {
-    // eslint-disable-next-line no-await-in-loop
-    const { data } = await gh.repos.listTags({
-      ...args,
-      page: i,
-      per_page: 100,
-    });
-
-    allTagsList.push(...data);
-  }
-
-  return allTagsList;
-};
+github_1(process.env.GITHUB_TOKEN);
+({ owner: owner.name || owner.login, repo: repository.name });
 
 (async function run() {
-  const tags = await getAllTags();
-  const releaseTag = tags.find(({ commit }) => commit.sha === context.payload.commits[0].id);
-
-  if (releaseTag) {
-    core_15('releaseTag', releaseTag.name);
-    core_15('packageName', repository.name);
-  }
+  console.log('--->' , JSON.stringify(context.payload, null, 2));
 }());

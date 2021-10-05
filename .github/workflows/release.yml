@@ -1,9 +1,8 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [labeled]
 
 jobs:
   build:
@@ -13,20 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Setup registry
-        run: |
-          npm config set registry https://artifactory.infrateam.xyz/api/npm/npm/
-          npm config set always-auth true
-          echo "//artifactory.infrateam.xyz/api/npm/npm/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
 
       - uses: ./.github/actions/release
         id: getReleaseTag
         env:
           GITHUB_TOKEN: ${{ secrets.APP_GITHUB_TOKEN }}
-          ORGANIZATION: Zinchenko-Andrii
-
-      - name: Make dist-tag latest
-        if: steps.getReleaseTag.outputs.releaseTag
-        run: |
-          echo add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }}
-#          npm dist-tag add ${{ steps.getReleaseTag.outputs.packageName }}@${{ steps.getReleaseTag.outputs.releaseTag }} latest
+          BRANCH: ${{ steps.extract_branch.outputs.branch }}
